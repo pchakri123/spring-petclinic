@@ -31,7 +31,7 @@ pipeline:
                   name: mvn_build
                   spec:
                     shell: Sh
-                    command: mvn clean install -U
+                    command: mvn clean install -DskipCompilerPlugin
                   timeout: ""
                   type: Run
           platform:
