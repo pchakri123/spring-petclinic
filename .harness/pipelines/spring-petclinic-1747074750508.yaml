@@ -31,7 +31,7 @@ pipeline:
                   name: mvn_build
                   spec:
                     shell: Sh
-                    command: mvn clean compile
+                    command: mvn clean install -U
                   timeout: ""
                   type: Run
           platform:
