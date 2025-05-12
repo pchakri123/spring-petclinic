@@ -39,6 +39,11 @@
     <spring-format.version>0.0.43</spring-format.version>
 
   </properties>
+  <properties>
+  <maven.compiler.source>17</maven.compiler.source>
+  <maven.compiler.target>17</maven.compiler.target>
+  <maven.compiler.release>17</maven.compiler.release>
+  </properties>
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
