@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_pchakri123_spring_petclinic_1747074754206-pr-trigger-input-set
+  identifier: Build_pchakri123_spring_petclinic_1747074754206prtriggerinputset
+  orgIdentifier: WiproPOC
+  projectIdentifier: Chakri_P
+  pipeline:
+    identifier: Build_pchakri123_spring_petclinic_1747074754206
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
