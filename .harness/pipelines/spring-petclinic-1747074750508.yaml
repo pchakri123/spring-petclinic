@@ -31,9 +31,7 @@ pipeline:
                   name: mvn_build
                   spec:
                     shell: Sh
-                    command: |-
-                      mvn spring-javaformat:apply
-                      mvn clean install
+                    command: mvn clean install
                   timeout: ""
                   type: Run
           platform:
