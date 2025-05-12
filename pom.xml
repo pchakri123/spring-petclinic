@@ -40,6 +40,13 @@
     <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
     <spring-format.version>0.0.43</spring-format.version>
   </properties>
+   <repositories>
+    <repository>
+      <id>central</id>
+      <url>https://repo.maven.apache.org/maven2</url>
+    </repository>
+    <!-- Other repositories can go here if needed -->
+    </repositories>
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
@@ -268,13 +275,7 @@
       <name>Spring Milestones</name>
       <url>https://repo.spring.io/milestone</url>
     </pluginRepository>
-    <repositories>
-    <repository>
-    <id>central</id>
-    <url>https://repo.maven.apache.org/maven2</url>
-  </repository>
-   </repositories>
-  </pluginRepositories>
+      </pluginRepositories>
 
   <profiles>
     <profile>
